@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gmail_sender"
+version = "0.1.0"
+description = ""
+authors = ["Léo Martin <secretariat@younhasolena.bzh>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydrive = "^1.3.1"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+google-api-python-client = "^2.146.0"
+google-auth-oauthlib = "^1.2.1"
+google-auth-httplib2 = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
